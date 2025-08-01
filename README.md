@@ -15,23 +15,14 @@ The model is deployed and ready to use! Upload an image and get instant predicti
 6) Scroll down, in response body you'll see the predicted class. :)
 
 ## Project Structure
-dog-cat-classifier/
-├── data_split/          # Dataset splitting scripts/files
-├── model_training/      # Training notebooks and model files
-│   ├── model.ipynb
-│   └── cat_dog_classifier.keras
-├── modal_app/          # Deployment application
-│   ├── app.py
-│   ├── requirements.txt
-│   └── (model file goes here)
-├── .gitignore
-└── README.md
+<img width="517" height="277" alt="image" src="https://github.com/user-attachments/assets/5df7e113-4eb5-4776-b057-093cbf280dab" />
+
 
 
 ## Setup Instructions
 
 ### Option 1: Use the Live Deployment (Recommended)
-Just visit: [Here](https://manuisliterallykirby--cat-dog-classifier-fastapi-app.modal.run/docs)
+Just visit: [Deployed using Modal](https://manuisliterallykirby--cat-dog-classifier-fastapi-app.modal.run/docs)
 
 ### Option 2: Run Locally
 
