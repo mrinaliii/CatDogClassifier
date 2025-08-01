@@ -15,13 +15,23 @@ The model is deployed and ready to use! Upload an image and get instant predicti
 6) Scroll down, in response body you'll see the predicted class. :)
 
 ## Project Structure
-<img width="665" height="312" alt="image" src="https://github.com/user-attachments/assets/6827536e-ea6d-4289-9382-ba888d421709" />
+dog-cat-classifier/
+├── data_split/          # Dataset splitting scripts/files
+├── model_training/      # Training notebooks and model files
+│   ├── model.ipynb
+│   └── cat_dog_classifier.keras
+├── modal_app/          # Deployment application
+│   ├── app.py
+│   ├── requirements.txt
+│   └── (model file goes here)
+├── .gitignore
+└── README.md
 
 
 ## Setup Instructions
 
 ### Option 1: Use the Live Deployment (Recommended)
-Just visit: [https://manuisliterallykirby--cat-dog-classifier-fastapi-app.modal.run/docs](https://manuisliterallykirby--cat-dog-classifier-fastapi-app.modal.run/docs)
+Just visit: [Here](https://manuisliterallykirby--cat-dog-classifier-fastapi-app.modal.run/docs)
 
 ### Option 2: Run Locally
 
@@ -34,7 +44,7 @@ cd CatDogClassifier
 2. Download the Trained Model
 ⚠ Important: The trained model file is required to run the application but is not included in this repository due to GitHub's file size limits.
 
-📥 Download link: https://www.dropbox.com/scl/fi/e34uc4499s90sx7jysj57/cat_dog_classifier.keras?rlkey=siov9wmzdj2cx4tq777i85scr&st=1g7mym0r&dl=1
+📥 Download link: [Dropbox Link](https://www.dropbox.com/scl/fi/e34uc4499s90sx7jysj57/cat_dog_classifier.keras?rlkey=siov9wmzdj2cx4tq777i85scr&st=1g7mym0r&dl=1)
 Download cat_dog_classifier.keras from Dropbox
 File size: 217.87 MB
 Place this file in the modal_app/ directory
