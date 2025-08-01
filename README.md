@@ -17,7 +17,11 @@ The model is deployed and ready to use! Upload an image and get instant predicti
 ## Project Structure
 <img width="517" height="277" alt="image" src="https://github.com/user-attachments/assets/5df7e113-4eb5-4776-b057-093cbf280dab" />
 
-
+## Dataset
+This project uses the **Dog and Cat Classification Dataset** from Kaggle:
+- **Source:** https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset
+- **Credit:** Dataset by Bhavik Jikadara
+- **Description:** Collection of cat and dog images for binary classification training
 
 ## Setup Instructions
 
