@@ -1,0 +1,2 @@
+*.keras filter=lfs diff=lfs merge=lfs -text
+modal_app/cat_dog_classifier.keras filter=lfs diff=lfs merge=lfs -text
