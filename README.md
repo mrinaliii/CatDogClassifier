@@ -2,7 +2,7 @@
 
 A machine learning project for classifying images of cats and dogs using deep learning.
 
-## 🚀 Live Demo
+## Live Demo
 **Try it now:** [Cat vs Dog Classifier API](https://manuisliterallykirby--cat-dog-classifier-fastapi-app.modal.run/docs)
 
 The model is deployed and ready to use! Upload an image and get instant predictions.
@@ -33,9 +33,9 @@ cd CatDogClassifier
 ```
 
 2. Download the Trained Model
-⚠ Important: The trained model file is required to run the application but is not included in this repository due to GitHub's file size limits.
+Important: The trained model file is required to run the application but is not included in this repository due to GitHub's file size limits.
 
-📥 Download link: [Dropbox Link](https://www.dropbox.com/scl/fi/e34uc4499s90sx7jysj57/cat_dog_classifier.keras?rlkey=siov9wmzdj2cx4tq777i85scr&st=1g7mym0r&dl=1)
+Download link: [Dropbox Link](https://www.dropbox.com/scl/fi/e34uc4499s90sx7jysj57/cat_dog_classifier.keras?rlkey=siov9wmzdj2cx4tq777i85scr&st=1g7mym0r&dl=1)
 Download cat_dog_classifier.keras from Dropbox
 File size: 217.87 MB
 Place this file in the modal_app/ directory
