@@ -5,7 +5,7 @@ A machine learning project for classifying images of cats and dogs using deep le
 Try the Streamlit App: Simply run the app locally and upload your images for instant classification!
 The model is deployed on Modal and the Streamlit app provides a user-friendly interface to interact with it.
 
-##How to Use:
+## How to Use:
 1) Run the Streamlit app (see setup instructions below)
 2) Upload an image of a cat or dog using the file uploader
 3) Click "Classify Image"
@@ -21,9 +21,6 @@ This project uses the **Dog and Cat Classification Dataset** from Kaggle:
 - **Description:** Collection of cat and dog images for binary classification training
 
 ## Setup Instructions
-
-### Option 1: Use the Live Deployment (Recommended)
-Just visit: [Deployed using Modal](https://manuisliterallykirby--cat-dog-classifier-fastapi-app.modal.run/docs)
 
 ### Option 1: Run Locally
 
