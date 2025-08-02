@@ -78,7 +78,7 @@ modal deploy app.py
 
 ## Tech Stack
 
-Frontend: Streamlit
-Backend: FastAPI + Modal
-ML Framework: TensorFlow/Keras
-Deployment: Modal Cloud Platform
+- Frontend: Streamlit
+- Backend: FastAPI + Modal
+- ML Framework: TensorFlow/Keras
+- Deployment: Modal Cloud Platform
