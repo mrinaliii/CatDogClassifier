@@ -50,7 +50,7 @@ streamlit run streamlit_app.py
 ### Option 2: Use the API Directly
 For developers who want to use the raw API: [FastAPI Documentation](https://manuisliterallykirby--cat-dog-classifier-fastapi-app.modal.run/docs)
 
-###Option 3: Run Locally (Advanced)
+### Option 3: Run Locally (Advanced)
 
 1. Clone the Repository
 ```bash
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 modal deploy app.py
 ```
 
-###Tech Stack
+## Tech Stack
 
 Frontend: Streamlit
 Backend: FastAPI + Modal
