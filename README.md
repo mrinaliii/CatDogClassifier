@@ -41,13 +41,13 @@ streamlit run streamlit_app.py
 ```
 
 4. Use the App
-*The app will open in your browser at http://localhost:8501
-*Upload an image of a cat or dog
-*Click "Classify Image" to get predictions
-*The app connects to the deployed Modal API automatically!
+- The app will open in your browser at http://localhost:8501
+- Upload an image of a cat or dog
+- Click "Classify Image" to get predictions
+- The app connects to the deployed Modal API automatically!
 
 
-###Option 2: Use the API Directly
+### Option 2: Use the API Directly
 For developers who want to use the raw API: [FastAPI Documentation](https://manuisliterallykirby--cat-dog-classifier-fastapi-app.modal.run/docs)
 
 ###Option 3: Run Locally (Advanced)
@@ -59,7 +59,7 @@ cd CatDogClassifier
 ```
 
 2. Important: The trained model file is required to run the application but is not included in this repository due to GitHub's file size limits.
--
+
 Download link: [Dropbox Link](https://www.dropbox.com/scl/fi/e34uc4499s90sx7jysj57/cat_dog_classifier.keras?rlkey=siov9wmzdj2cx4tq777i85scr&st=1g7mym0r&dl=1)
 Download cat_dog_classifier.keras from Dropbox
 File size: 217.87 MB
