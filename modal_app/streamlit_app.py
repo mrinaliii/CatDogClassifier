@@ -110,7 +110,7 @@ if uploaded_file is not None:
 else:
     st.info("Upload an image above to get started!")
     
-    st.markdown("### Example Usage")
+    st.markdown("Example Usage")
     st.markdown("Here's what you can expect:")
     
     example_col1, example_col2 = st.columns(2)
@@ -133,3 +133,4 @@ st.markdown(
     help="This app connects to Modal deployment for image classification"
 
 )
+
