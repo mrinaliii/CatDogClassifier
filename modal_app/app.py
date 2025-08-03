@@ -2,7 +2,6 @@ from modal import App, Image, asgi_app
 
 app = App("cat-dog-classifier")
 
-# Define the image with all required dependencies and add the model file
 image_dep = (
     Image.debian_slim()
     .pip_install(
@@ -10,7 +9,7 @@ image_dep = (
         "numpy", 
         "pillow", 
         "tensorflow",
-        "python-multipart"  # Required for file uploads in FastAPI
+        "python-multipart"  
     )
     .add_local_file("cat_dog_classifier.keras", remote_path="/app/cat_dog_model.keras")
 )
@@ -18,7 +17,6 @@ image_dep = (
 @app.function(image=image_dep)
 @asgi_app()
 def fastapi_app():
-    # Import inside the function so they're only imported in the Modal environment
     from fastapi import FastAPI, UploadFile, File
     from io import BytesIO
     from tensorflow.keras.models import load_model
@@ -28,7 +26,6 @@ def fastapi_app():
     
     web_app = FastAPI()
     
-    # Load the model from the copied file
     model = load_model("/app/cat_dog_model.keras")
 
     @web_app.post("/predict")
